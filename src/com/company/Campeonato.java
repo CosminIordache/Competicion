@@ -71,4 +71,14 @@ public class Campeonato {
         return mejorMarca;
     }
 
+    @Override
+    public String toString() {
+        return "Campeonato{" +
+                "start=" + start +
+                ", finish=" + finish +
+                ", prueba=" + prueba +
+                ", typeAtlete=" + typeAtlete +
+                ", typeMarca=" + typeMarca +
+                '}';
+    }
 }

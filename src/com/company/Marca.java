@@ -26,4 +26,12 @@ public class Marca {
         this.resultado = resultado;
     }
 
+    @Override
+    public String toString() {
+        return "Marca{" +
+                "prueba=" + prueba +
+                ", deportista=" + deportista +
+                ", resultado=" + resultado +
+                '}';
+    }
 }
